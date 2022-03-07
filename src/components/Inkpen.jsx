@@ -15,6 +15,7 @@ export function Inkpens(){
                     addInkens(-1)}}
                 }
                 >-</button>
+                
         </div>
     )
 }
