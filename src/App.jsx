@@ -3,6 +3,7 @@ import './App.css';
 import {Books} from "./components/Books"
 import {Pens} from "./components/Pens"
 import {Notebooks} from "./components/Notebook"
+import {Inkpens} from "./components/Inkpen"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
        <Books />
        <Pens />
        <Notebooks/>
+       <Inkpens />
     </>
   );
 }
