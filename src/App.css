@@ -4,6 +4,8 @@
   width:500px;
   height:70px;
   margin-top:20px;
+  font-size:30px;
+  padding:10px;
   
 }
 .addBook,.remBook,.addInkpen,.remInkpen,.addNotebook,.remNotebook,.addPen,.remPen{
