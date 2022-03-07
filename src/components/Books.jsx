@@ -11,7 +11,10 @@ export function Books(){
             <span>Books:{book}</span>
             <button className ="addBook" onClick = {() =>{addBooks(1)}}>+</button>
             <button className ="remBook" onClick = {()=>{
-                addBooks(-1)}}>-</button>
+                if(book >= 1){
+                    addBooks(-1)}}
+                }
+                >-</button>
         </div>
     )
 }

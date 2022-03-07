@@ -9,9 +9,12 @@ export function Pens(){
     return (
         <div className="items">
             <span>Pens:{pen}</span>
-            <button className ="addBook" onClick = {() =>{addPens(1)}}>+</button>
-            <button className ="remBook" onClick = {()=>{
-                addPens(-1)}}>-</button>
+            <button className ="addPen" onClick = {() =>{addPens(1)}}>+</button>
+            <button className ="remPen" onClick = {()=>{
+                if(pen >=1){
+                    addPens(-1)}}
+                }
+                >-</button>
         </div>
     )
 }
